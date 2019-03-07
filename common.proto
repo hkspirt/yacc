@@ -1,0 +1,12 @@
+import "test1.proto";  //aaaa
+import "test2.proto"; /*bbbb*/
+
+/*AAAA
+
+BBBB*/
+
+//消息A
+message MessageA
+{
+    optional int32 msg  = 1;  //cccc
+}
